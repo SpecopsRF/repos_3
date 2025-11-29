@@ -1,0 +1,27 @@
+# Большие бинарные файлы
+kubectl
+minikube*
+*.deb
+*.tar.gz
+
+# Виртуальное окружение
+venv/
+
+# Python кэш
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# IDE
+.idea/
+.vscode/
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+
+# Отчёты
+security-reports/
+trivy-report.*
