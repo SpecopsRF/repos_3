@@ -48,4 +48,4 @@ def delete_item(item_id: int):
         del items_db[item_id]
         return {"message": f"Item {item_id} deleted"}
     return {"error": "Item not found"}
-
+# Test VS Code
